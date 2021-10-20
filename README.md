@@ -2,7 +2,7 @@
 30 days frontend challenge
 
 ## Overview
-This challenge will take place during 30 consecutives days (except Fri-Sat), and in each day I'll try to build:
+This challenge will take place during 30 consecutives days (except Fri-Sat), and in each day I'll try to build (one of the following or both):
 - One static page with Tailwindcss (to practice structure and design of webpage).
 - One dynamic component using Svelte, React or both.
 
