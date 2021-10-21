@@ -43,7 +43,12 @@ export default {
   },
   plugins: [
     svelte({
-      preprocess: [windi({})],
+      preprocess: [windi({
+        scan: {
+          dirs: ['.'],
+          fileExtensions: ['html', 'svelte']
+        }
+      })],
       compilerOptions: {
         // enable run-time checks when not in production
         dev: !production,
